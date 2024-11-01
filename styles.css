@@ -1,4 +1,5 @@
-body {
+
+  body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,25 +15,30 @@ body {
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 20px;
+    position: relative;
   }
   
   .progress-bar {
     height: 30px;
     width: 0;
-    background-color: #321c75;
-    text-align: center;
-    color: white;
-    line-height: 30px;
+    background-color: #4caf50;
+    display: flex;
+    align-items: center;
+    position: relative;
     transition: width 0.3s ease;
   }
-  .progress-pointer {
-    position: absolute;
-    top: 270px; /* Adjust based on the size of your image */
-    transform: translateX(-50%);
-    transition: left 0.3s ease;
-    width: 20px;  
-    height: 20px;
+  
+  .progress-icon {
+    width: 75px;  /* Set the desired width of the icon */
+    height: 75px; /* Set the desired height of the icon */
+    margin-left: -12.5px; /* Center icon on the progress bar end */
+    position:absolute;
+    right: 0; 
+    z-index: 6;/* Keep it at the moving end */
+    top: 50%;
+    transform: translateY(-50%);
   }
+  
   button {
     padding: 10px 20px;
     font-size: 16px;

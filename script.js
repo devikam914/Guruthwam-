@@ -1,33 +1,22 @@
+
 let progress = 0;
 
-function updatePointerPosition() {
-    const pointer = document.getElementById("progress-pointer");
-    pointer.style.left = progress + "%";
-  }
-
 function increaseProgress() {
+  const progressBar = document.getElementById("progress-bar");
+  const progressIcon = document.getElementById("progress-icon");
+
+  const increment = Math.floor(Math.random() * 10) + 1;
   if (progress < 100) {
-    progress += Math.floor(Math.random() * 10);
-    document.getElementById("progress-bar").style.width = progress + "%";
-    updatePointerPosition();
-    //document.getElementById("progress-bar").innerText = progress + "%";
+    progress += increment; // Increment progress by 10% on each click
+    if (progress > 100) progress = 100;
+    
+    // Update the width of the progress bar
+    progressBar.style.width = progress + "%";
+
+    const containerWidth = progressContainer.offsetWidth;
+    const iconOffset = containerWidth * (progress / 100) - progressIcon.offsetWidth / 2;
+    
+    // Move the icon to the end of the current progress
+    progressIcon.style.left = iconOffset + "px";
   }
 }
-
-function decreaseProgress(){
-    if (progress >= 0) {
-        progress -= Math.floor(Math.random() * 10);
-        document.getElementById("progress-bar").style.width = progress + "%";
-        updatePointerPosition();
-        //document.getElementById("progress-bar").innerText = progress + "%";
-      }
-}
-
-function randomProgressChange() {
-    // Randomly choose to increase or decrease progress
-    if (Math.random() < 0.5) {
-      increaseProgress();
-    } else {
-      decreaseProgress();
-    }
-  }

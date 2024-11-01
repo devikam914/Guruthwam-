@@ -1,19 +1,21 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progress Bar</title>
+  <title>Progress Bar with Moving Icon</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <div class="progress-container">
-    <div class="progress-bar" id="progress-bar"></div>
-    <img src="pointer.png" alt="Pointer" class="progress-pointer" id="progress-pointer">
-
+    <div class="progress-bar" id="progress-bar">
+      <!-- Icon that stays at the moving end of the progress bar -->
+      <img src="pointer.jpg" alt="Pointer" class="progress-icon" id="progress-icon">
+    </div>
   </div>
-  <button onclick="randomProgressChange()">Increase Progress</button>
+  <button onclick="increaseProgress()">Increase Progress</button>
 
   <script src="script.js"></script>
 </body>
