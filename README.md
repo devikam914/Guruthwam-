@@ -1,38 +1,33 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# ഗുരുത്വം METER 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: 502 Bad Gateway
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Devika M Nair - LBS Institute of Technology for Women
+- Member 2: Aleena Jaison - LBS Institute of Technology for Women
+- Member 3: Akshaya Mugin - LBS Institute of Technology for Women
 
 ### Project Description
-[2-3 lines about what your project does]
+It simply calculates your ഗുരുത്വം through a question.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+It has been observed in GenZ the lack of sufficient ഗുരുത്വം to lead a very demure life. 
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We have developed a 'ഗുരുത്വം METER' where a question will be asked to the user and according to the choice he/she selected, the ഗുരുത്വം will be calculated and displayed.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- HTML, CSS, JavaScript
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
@@ -87,9 +82,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Devika M Nair: [Specific contributions]
+- Aleena Jaison: [Specific contributions]
+- Akshaya Mugin: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
