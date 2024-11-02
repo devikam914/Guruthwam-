@@ -13,6 +13,9 @@ function increaseProgress() {
     // Update the width of the progress bar
     progressBar.style.width = progress + "%";
 
+    const percentage = progress.toFixed(2); // Format the percentage to 2 decimal places
+    console.log(`Progress: ${percentage}%`);
+
     const containerWidth = progressContainer.offsetWidth;
     const iconOffset = containerWidth * (progress / 100) - progressIcon.offsetWidth / 2;
     

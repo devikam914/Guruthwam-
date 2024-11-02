@@ -41,23 +41,4 @@ body {
     transform: translateY(-50%);
   }
   
-  .label {
-    color: white; /* Label text color */
-    font-size: 16px; /* Font size */
-    position: absolute; /* Position labels absolutely */
-    bottom: 10px;
-}
-
-.left {
-    left: 10px; /* Position label 1 to the left */
-}
-
-.center {
-    position: absolute; /* Position center label absolutely */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust for width */
-}
-
-.right {
-    right: 10px; /* Position label 3 to the right */
-}
+ 
