@@ -41,14 +41,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+https://1drv.ms/i/c/2d67655e8bd786e1/EU1QFlhrlRlGp36njEgCnDcBGr4qCAM9Fy0btimGd6S5MA?e=Zu32aX
+Front page
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+https://1drv.ms/i/c/2d67655e8bd786e1/EdiQcML1WQlHuMT6sciaA6gB_JeEaKajk_udB5pnJYzG6w?e=g2VNm4
+Progress bar
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -64,27 +63,32 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+https://1drv.ms/i/c/2d67655e8bd786e1/EQIIgIPMFjxIrqE8ka1G0JUBmdNFjRft3rKL6YgxgI73mg?e=YHVieO
+Initial progress bar we created
 
-![Final](Add photo of final product here)
-*Explain the final build*
+https://1drv.ms/i/c/2d67655e8bd786e1/EdiQcML1WQlHuMT6sciaA6gB_JeEaKajk_udB5pnJYzG6w?e=g2VNm4
+Modified final progress bar
+
+https://1drv.ms/i/c/2d67655e8bd786e1/EZI90yc-FWhLi9iZKQEovmkBTISflBqzIbZb--53AYkmXg?e=ft45I2
+Scale page program
+
+https://1drv.ms/i/c/2d67655e8bd786e1/Eauz5XpJHtZNt48cCSrgTc0BtFqLis9FuZObCZ9F5zPPyA?e=ZmV8Gk
+Index page program
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://1drv.ms/v/c/2d67655e8bd786e1/EX9QOioasmNEmogzMp2lkssBjViqy3RErkbjb0IQ-2BwPg?e=r8vE9j
+Demonstration of ഗുരുത്വം METER project
+
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- Devika M Nair: [Specific contributions]
-- Aleena Jaison: [Specific contributions]
-- Akshaya Mugin: [Specific contributions]
+- Devika M Nair: Builded loading page and progress bar
+- Aleena Jaison: Builded index page and end page
+- Akshaya Mugin: Resources and idea pitching
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
