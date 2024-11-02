@@ -5,7 +5,7 @@ function increaseProgress() {
   const progressBar = document.getElementById("progress-bar");
   const progressIcon = document.getElementById("progress-icon");
 
-  const increment = Math.floor(Math.random() * 10) + 1;
+  const increment = Math.floor(Math.random() * 70) + 1;
   if (progress < 100) {
     progress += increment; // Increment progress by 10% on each click
     if (progress > 100) progress = 100;
@@ -20,3 +20,7 @@ function increaseProgress() {
     progressIcon.style.left = iconOffset + "px";
   }
 }
+increaseProgress();
+
+// Optionally, set an interval to update the progress bar periodically
+setInterval(increaseProgress(), 1000); 

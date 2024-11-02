@@ -8,14 +8,45 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="progress-container">
+  <!--<div class="progress-container">
     <div class="progress-bar" id="progress-bar">
-      <!-- Icon that stays at the moving end of the progress bar -->
+      
       <img src="pointer.jpg" alt="Pointer" class="progress-icon" id="progress-icon">
     </div>
-  </div>
-  <button onclick="increaseProgress()">Check Guruthwam</button>
+  </div> -->
+  <div class="question-container">
+    <h2>What is your favorite programming language?</h2>
+    <form id="questionForm">
+        <div class="option">
+            <input type="radio" id="option1" name="language" value="JavaScript">
+            <label for="option1">JavaScript</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="option2" name="language" value="Python">
+            <label for="option2">Python</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="option3" name="language" value="Java">
+            <label for="option3">Java</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="option4" name="language" value="C#">
+            <label for="option4">C#</label>
+        </div>
+        <button id="redirectButton">Check your ഗുരുത്വം</button>
+      <!-- <button type="submit">Submit</button> -->
+    </form>
+</div>
+   <!-- Redirect Button -->
+    
+    <script>
+        // Redirect to the main page on button click
+        document.getElementById('questionForm').onsubmit = function(event){
+          event.preventDefault(); 
+          window.location.href = 'index.html'; // Redirect to main page
+        };
+    </script>
 
-  <script src="script.js"></script>
+  
 </body>
 </html>

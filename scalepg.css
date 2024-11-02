@@ -1,0 +1,63 @@
+
+body {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #af521d, #6d1c37);
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+.progress-container {
+    width: 80%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 250px;
+    position: relative;
+  }
+  
+  .progress-bar {
+    height: 30px;
+    width: 0;
+    background-color: #a78b96;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    transition: width 3s ease;
+  }
+  
+  .progress-icon {
+    width: 75px;  /* Set the desired width of the icon */
+    height: 75px; /* Set the desired height of the icon */
+    margin-left: -12.5px; /* Center icon on the progress bar end */
+    position:absolute;
+    right: 0; 
+    z-index: 6;/* Keep it at the moving end */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .label {
+    color: white; /* Label text color */
+    font-size: 16px; /* Font size */
+    position: absolute; /* Position labels absolutely */
+    bottom: 10px;
+}
+
+.left {
+    left: 10px; /* Position label 1 to the left */
+}
+
+.center {
+    position: absolute; /* Position center label absolutely */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for width */
+}
+
+.right {
+    right: 10px; /* Position label 3 to the right */
+}

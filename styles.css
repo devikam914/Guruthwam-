@@ -9,49 +9,31 @@
     margin: 0;
     font-family: Arial, sans-serif;
   }
-  
-  .progress-container {
-    width: 80%;
-    background-color: #e0e0e0;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    position: relative;
-  }
-  
-  .progress-bar {
-    height: 30px;
-    width: 0;
-    background-color: #4caf50;
-    display: flex;
-    align-items: center;
-    position: relative;
-    transition: width 0.3s ease;
-  }
-  
-  .progress-icon {
-    width: 75px;  /* Set the desired width of the icon */
-    height: 75px; /* Set the desired height of the icon */
-    margin-left: -12.5px; /* Center icon on the progress bar end */
-    position:absolute;
-    right: 0; 
-    z-index: 6;/* Keep it at the moving end */
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
+
   button {
+    margin-top: 10px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     border: none;
-    background-color: #4caf50;
+    background-color: #96212b;
     color: white;
     border-radius: 5px;
     transition: background-color 0.2s ease;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #58474d;
   }
   
+  .question-container {
+    text-align: center; 
+    background-color: #d8d1d1; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+
+.option {
+    margin: 10px 0; 
+}
